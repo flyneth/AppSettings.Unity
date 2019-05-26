@@ -6,12 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AppSettings.Unity" Version="1.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="Unity" Version="5.10.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Unity.AppSettings\AppSettings.Unity.csproj" />
   </ItemGroup>
 
 </Project>

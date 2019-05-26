@@ -9,9 +9,13 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageLicenseFile></PackageLicenseFile>
     <Authors>Darren Wanng</Authors>
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.1.1</AssemblyVersion>
-    <FileVersion>1.0.1.1</FileVersion>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.1.2</AssemblyVersion>
+    <FileVersion>1.0.1.2</FileVersion>
+    <Description>AppSettings.Unity is an extension to parse AppSettings in app.config( web.config) section into specified DOM.</Description>
+    <PackageTags>Unity AppSettings .Net</PackageTags>
+    <PackageReleaseNotes>Support to parse AppSettings in app.config( web.config) section into specified DOM.</PackageReleaseNotes>
+    <Copyright>Copyright 2019 Darren</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

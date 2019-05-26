@@ -1,18 +1,59 @@
 <?xml version="1.0"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>https://github.com/flyneth/Unity.AppSettings/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/flyneth/Unity.AppSettings</projectUrl>
+    <!-- The identifier that must be unique within the hosting gallery -->
+    <id>AppSettings.Unity</id>
+
+    <!-- The package version number that is used when resolving dependencies -->
+    <version>1.0.2</version>
+    <!-- Authors contain text that appears directly on the gallery -->
+    <authors>Darren Wang</authors>
+
+    <!-- 
+            Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.  
+        -->
+    <owners>Darren Wang</owners>
+
+    <!-- Project URL provides a link for the gallery -->
+    <projectUrl>https://github.com/flyneth/AppSettings.Unity</projectUrl>
+
+    <!-- License information is displayed on the gallery -->
+    <license type="expression">MIT</license>
+
+
+    <!-- The icon is used in Visual Studio's package manager UI -->
     <iconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon-256x256.png</iconUrl>
+
+    <!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+
+    <!-- Any details about this particular release -->
     <releaseNotes>Support to parse AppSettings in app.config( web.config) section into specified DOM.</releaseNotes>
-    <copyright>Copyright 2019</copyright>
+
+    <!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+    <description>Support to parse AppSettings in app.config( web.config) section into specified DOM.</description>
+
+    <!-- Copyright information -->
+    <copyright>Copyright 2019 Darren</copyright>
+
+    <!-- Tags appear in the gallery and can be used for tag searches -->
     <tags>Unity AppSettings .Net</tags>
+
+    <!-- Dependencies are automatically installed when the package is installed -->
+    <dependencies>
+      <dependency id="Unity.Abstractions" version="4.1.0" />
+    </dependencies>
   </metadata>
+
+  <!-- A readme.txt to display when the package is installed -->
+  <!--<files>
+    <file src="readme.txt" target="" />
+  </files>-->
 </package>
