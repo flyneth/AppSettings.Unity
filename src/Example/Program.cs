@@ -1,7 +1,7 @@
 ﻿using System;
+using AppSettings.Unity;
 using Newtonsoft.Json;
 using Unity;
-using Unity.AppSettings;
 
 namespace Example
 {

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Unity;
 using Unity.Injection;
 using Unity.Lifetime;
 
-namespace Unity.AppSettings
+namespace AppSettings.Unity
 {
-    public static class UnityAppSettingsExtension
+    public static class AppSettingsUnityExtension
     {
         /// <summary>
         /// Register a <see cref="LifetimeManager"/> for the given type with the container.

@@ -1,6 +1,6 @@
-# Unity.AppSettings #
+# AppSettings.Unity #
 
-Unity.AppSettings is an extension to parse AppSettings in app.config( web.config) section into specified DOM. 
+AppSettings.Unity is an extension to parse AppSettings in app.config( web.config) section into specified DOM. 
 
 Default resolve your specified **appsetting model** as a Singleton (ContainerControlledLifetimemanager).
 

@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFrameworks>net45;net452;net46;netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/flyneth/AppSettings.Unity</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/flyneth/AppSettings.Unity</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile></PackageLicenseFile>
+    <Authors>Darren Wanng</Authors>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

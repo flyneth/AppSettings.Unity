@@ -1,6 +1,5 @@
 ﻿using System;
 using Unity;
-using Unity.AppSettings;
 
 namespace Example
 {

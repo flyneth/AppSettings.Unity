@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Unity.AppSettings\Unity.AppSettings.csproj" />
+    <ProjectReference Include="..\Unity.AppSettings\AppSettings.Unity.csproj" />
   </ItemGroup>
 
 </Project>
